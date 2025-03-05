@@ -1,0 +1,194 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li button {
+    background-color: #0044cc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+nav ul li button:hover {
+    background-color: #0033a0;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    display: none; /* Ocultamos as seções inicialmente */
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #0044cc;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilos para as listas de tarefas */
+#tarefas,
+#tarefas-usuario {
+    list-style: none;
+    padding: 0;
+}
+
+#tarefas li,
+#tarefas-usuario li {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#tarefas li:hover,
+#tarefas-usuario li:hover {
+    background-color: #f1f1f1;
+}
+
+strong {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+button {
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003d80;
+}
+
+button[onclick*="excluirTarefa"] {
+    background-color: #dc3545;
+}
+
+button[onclick*="excluirTarefa"]:hover {
+    background-color: #c82333;
+}
+
+button[onclick*="editarTarefa"] {
+    background-color: #ffc107;
+}
+
+button[onclick*="editarTarefa"]:hover {
+    background-color: #e0a800;
+}
+
+/* Estilos específicos para a seção de adicionar tarefa */
+#nova-tarefa input[type="text"],
+#nova-tarefa input[type="number"],
+#nova-tarefa textarea {
+    width: 95%; /* Para dar um espaço à direita */
+}
+
+#nova-tarefa label {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+#nova-tarefa input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#usuarioId {
+    width: 50%;
+}
+
+#usuarioId,
+button {
+    display: inline-block;
+    vertical-align: middle;
+}

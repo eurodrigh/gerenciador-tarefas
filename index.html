@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo do Gerenciador de Tarefas" id="logo">
+        <h1>Gerenciador de Tarefas</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><button onclick="mostrarListaTarefas()">Lista de Tarefas</button></li>
+            <li><button onclick="mostrarListaPorUsuario()">Lista de Tarefas por Usuário</button></li>
+            <li><button onclick="mostrarFormularioAdicionar()">Adicionar Tarefa</button></li>
+        </ul>
+    </nav>
+
+    <main id="conteudo-principal">
+        <section id="lista-tarefas" class="conteudo">
+            <h2>Minhas Tarefas</h2>
+            <ul id="tarefas"></ul>
+        </section>
+
+        <section id="listar-usuario" class="conteudo">
+            <h2>Listar Tarefas por Usuário</h2>
+            <input type="number" id="id-usuario" placeholder="ID do usuário">
+            <button onclick="listarTarefasPorUsuario()">Listar Tarefas</button>
+            <ul id="tarefas-usuario"></ul>
+        </section>                 
+
+        <section id="nova-tarefa" class="conteudo" style="display: none;">
+            <h2>Adicionar Tarefa</h2>
+            <input type="text" id="titulo" placeholder="Título da tarefa">
+            <textarea id="descricao" placeholder="Descrição da tarefa (opcional)"></textarea>
+            <input type="number" id="usuario" placeholder="ID do usuário">
+            <label>
+                Concluída?
+                <input type="checkbox" id="concluida">
+            </label>
+            <button onclick="adicionarTarefa()">Adicionar</button>
+        </section>
+    </main>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
