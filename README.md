@@ -1,5 +1,3 @@
-# gerenciador-tarefas #
-
 # Gerenciador de Tarefas ##
 
 Este é um projeto de Gerenciador de Tarefas utilizando HTML, CSS e JavaScript com integração à API JSONPlaceholder para simulação de gerenciamento de tarefas.
