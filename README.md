@@ -29,7 +29,7 @@ Este é um projeto de Gerenciador de Tarefas utilizando HTML, CSS e JavaScript c
    - Adicionar novas tarefas preenchendo o formulário.
    - Listar tarefas de um usuário específico, filtrando pelo ID do usuário.
 
-**Colaboradores**
--> José Rodrigo F Santos (Responsável pela Funcionalidade com JavaScript e a Integração com a API do JSONPlaceholder)
--> Anny Vitória C Oliveira (Responsável pela Estilização da Página)
--> Ririellen Maria Batista (Responsável pela Estrutura HTML da Página)
+## Colaboradores ##
+- José Rodrigo F Santos (Responsável pela Funcionalidade com JavaScript e a Integração com a API do JSONPlaceholder)
+- Anny Vitória C Oliveira (Responsável pela Estilização da Página)
+- Ririellen Maria Batista (Responsável pela Estrutura HTML da Página)
