@@ -15,7 +15,21 @@ Este é um projeto de Gerenciador de Tarefas utilizando HTML, CSS e JavaScript c
 
 ## Como Executar o Projeto
 
-1. **Clone o repositório**:
-   Para clonar o repositório, use o seguinte comando no terminal:
-   ```bash
-   git clone https://github.com/usuario/nome-do-repositorio.git
+1. **Passo 01**
+   Clone o Repositório
+
+2. **Passo 02**
+   Abra o Arquivo HTML
+   Depois de clonar o repositório ou fazer o download dos arquivos, abra o arquivo index.html diretamente no seu navegador.
+
+3. **Passo 03**
+   Interaja com a Aplicação
+   Após abrir o arquivo index.html, você poderá:
+   - Visualizar as tarefas cadastradas.
+   - Adicionar novas tarefas preenchendo o formulário.
+   - Listar tarefas de um usuário específico, filtrando pelo ID do usuário.
+
+**Colaboradores**
+-> José Rodrigo F Santos (Responsável pela Funcionalidade com JavaScript e a Integração com a API do JSONPlaceholder)
+-> Anny Vitória C Oliveira (Responsável pela Estilização da Página)
+-> Ririellen Maria Batista (Responsável pela Estrutura HTML da Página)
