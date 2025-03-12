@@ -16,11 +16,10 @@ Este é um projeto de Gerenciador de Tarefas utilizando HTML, CSS e JavaScript c
 ## Como Executar o Projeto
 
 1. **Passo 01**
-   Clone o Repositório
+   Fazer o Download dos Arquivos
 
 2. **Passo 02**
-   Abra o Arquivo HTML
-   Depois de clonar o repositório ou fazer o download dos arquivos, abra o arquivo index.html diretamente no seu navegador.
+   Fazer o download dos arquivos e juntar em uma pasta, logo após abra o arquivo index.html diretamente no seu navegador.
 
 3. **Passo 03**
    Interaja com a Aplicação
